@@ -1,0 +1,25 @@
+{{>header}}
+<form action="calculos" method="post">
+    <div style="width: 300px">
+        <div style="width: 50%"><span>Nombre</span></div>
+        <div style="width: 50%"><input type="text" name="nombre" id="nombre"></div>        
+    </div>
+    <div>
+        <span>Matematicas</span>
+        <input type="text"  name="nota1" id="nota1">
+    </div>
+    <div>
+        <span>Inglés</span>
+        <input type="text" name="nota2" id="nota2">
+    </div>
+    <div>
+        <span>Español</span>
+        <input type="text" name="nota3" id="nota3">
+    </div>
+    <input type="submit" value="Enviar">
+</form>
+<p>
+    Bienvenido a la página de promedio estudiantes 
+</p>
+{{{listar}}}
+{{>footer}}
